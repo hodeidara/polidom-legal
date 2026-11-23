@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Redirecting… · Login Tiktok</title>
+<style>
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+         display:grid; place-items:center; min-height:100vh; background:#fff; color:#1c1c1e; }
+  @media (prefers-color-scheme: dark) { body { background:#161618; color:#ececf0; } }
+  p { max-width:560px; padding:0 20px; text-align:center; line-height:1.6; }
+</style>
+</head>
+<body>
+<p>Redirecting to complete the sign-in… / Redirigiendo para completar el inicio de sesión…</p>
+<script>
+  // Forwards the OAuth callback (code, state, etc.) unchanged to Composio's callback endpoint.
+  window.location.replace("https://backend.composio.dev/api/v3/toolkits/auth/callback" + window.location.search);
+</script>
+</body>
+</html>
